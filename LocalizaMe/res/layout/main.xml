@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/hello"
+	    />
+    
+    <CheckBox android:text="@string/sendCoordinates" android:id="@+id/sendcoordinates" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<!-- <CheckBox android:text="@string/doVideoCall" android:id="@+id/dovideocall" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox> -->
+	<CheckBox android:text="@string/doCall" android:id="@+id/docall" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<CheckBox android:text="@string/onlyContact" android:id="@+id/onlycontact" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<CheckBox android:text="@string/foreceSignal" android:id="@+id/forecesignal" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<EditText android:text="@+id/signal" android:id="@+id/signal" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+
+	<Button android:text="@+id/running" android:id="@+id/running" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>

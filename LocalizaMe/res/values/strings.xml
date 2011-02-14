@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">LocalizaMe! The aplication who help to find them</string>
+    <string name="app_name">LocalizaMe</string>
+    <string name="sendCoordinates">Send GPS position by SMS (GPS)</string>
+    <string name="doCall">Do calls (CALL)</string>
+    <string name="onlyContact">Only work with contacts</string>
+    <string name="foreceSignal">Force use password</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="getSignal">Insert password</string>
+    <string name="ok">Ok</string>
+    <string name="gpsNofount">Not fount a location.</string>
+    <string name="gpsSms">$xml$</string>
+    <string name="gpsLatitude">Latitude</string>
+    <string name="gpsLongitude">Longitude</string>
+</resources>
