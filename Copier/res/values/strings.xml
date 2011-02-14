@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Copier</string>
+	<string name="app_desc">Copia tus apps en la SD</string>
+	<string name="processing">Copiando</string>
+	<string name="geting">Copiando a la SD</string>
+	<string name="list_apps">Lista de Apps</string>
+	<string name="load_apps">Obteniendo las Apps instaladas</string>
+	<string name="path">/copier</string>
+	<string name="error">Error al copiar la aplicación</string>
+</resources>
