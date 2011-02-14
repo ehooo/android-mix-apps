@@ -5,7 +5,6 @@ import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.net.Uri;
 import android.view.Gravity;
-import android.view.MotionEvent;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -31,15 +30,6 @@ public class AppInfo extends LinearLayout{
 		txt.setTextColor(Color.BLACK);
 		txt.setPadding(txt.getPaddingLeft()+5, txt.getPaddingTop(), txt.getPaddingRight(), txt.getPaddingBottom());
 		addView(txt);
-	}
-
-	@Override
-	public boolean onTouchEvent(MotionEvent event) {
-		if(MotionEvent.ACTION_DOWN == event.getAction())
-			setBackgroundColor(Color.YELLOW);
-		else
-			setBackgroundColor(Color.WHITE);
-		return super.onTouchEvent(event);
 	}
 
 	public Uri getFile() {

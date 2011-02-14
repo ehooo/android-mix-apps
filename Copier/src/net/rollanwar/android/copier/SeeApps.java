@@ -86,6 +86,7 @@ public class SeeApps extends Activity implements OnItemClickListener, Runnable{
 			final ListView l = (ListView) findViewById(R.id.result_list);
 			l.setAdapter(adapter);
 			cleanDialog();
+			pd = null;
 			loop.quit();
 			loop = null;
 		};
