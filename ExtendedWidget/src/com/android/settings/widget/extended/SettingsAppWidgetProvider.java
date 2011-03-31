@@ -41,7 +41,6 @@ import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
 import android.util.Log;
 import android.widget.RemoteViews;
-import android.widget.Toast;
 
 /**
  * Provides control of power-related settings from a widget.
@@ -563,7 +562,7 @@ public class SettingsAppWidgetProvider extends AppWidgetProvider {
     					} catch (IOException e) {
     						e.printStackTrace();
     					} catch (RuntimeException e) {
-    						Toast.makeText(context, "Error on Camera", Toast.LENGTH_SHORT);
+    						e.printStackTrace();
     					}
     				}
                     return desiredState;
